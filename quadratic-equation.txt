@@ -1,0 +1,8 @@
+# Define a quadratic equation
+equation = x^2 + 3*x + 2 == 0
+
+# Solve the equation
+solutions = solve(equation, x)
+
+# Display the solutions
+print("Solutions to the equation: ", solutions)
